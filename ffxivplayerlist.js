@@ -149,7 +149,7 @@ const PlayerList = {
         for (let id of sortedIds) {
             let player = PlayerList.players[id]
             PlayerList.div().append(`
-                <span class="player color-${player.role} float-right">
+                <span class="player color-${player.role} float-left">
                     <span class="">${player.name}</span>
                     <em class="color-dim">♡${player.meetup}</em>
                     <em class="small">${player.level == 90 ? "" : "Lv." + player.level}</em>
