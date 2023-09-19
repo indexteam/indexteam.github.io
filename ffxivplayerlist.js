@@ -152,6 +152,7 @@ const PlayerList = {
                 <span class="player color-${player.role} float-left">
                     <span class="">${player.name}</span>
                     <em class="color-dim">♡${player.meetup}</em>
+					 <em class="color-dim">♡${player.job}</em>
                     <em class="small">${player.level == 90 ? "" : "Lv." + player.level}</em>
                 </span>
             `)
