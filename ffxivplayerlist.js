@@ -102,7 +102,10 @@ const PlayerParser = {
             "25": "GNB",
             "26": "DNC",
             "27": "RPR",
-            "28": "SGE"
+            "28": "SGE",
+			"29": "바이퍼",
+			"2A": "픽토멘서",
+			"0F": "요리사"
         }
         let jobAbbr = jobIdMap[jobId]
         return jobAbbr || `Unknown (Job ID: ${jobId})`
