@@ -295,17 +295,20 @@ const FontSize = {
     updateHtml: () => PlayerList.div().style.fontSize = Config.get(FontSize.configKey),
     toggle: () => {
         switch (Config.get(FontSize.configKey)) {
-            case "small":
-                Config.set(FontSize.configKey, 'medium')
+            case "12px":
+                Config.set(FontSize.configKey, '10px')
                 break
-            case "medium":
-                Config.set(FontSize.configKey, 'large')
+            case "16px":
+                Config.set(FontSize.configKey, '20px')
                 break
-            case "large":
-                Config.set(FontSize.configKey, 'small')
+            case "20px":
+                Config.set(FontSize.configKey, '12px')
                 break
+				case "8px":
+				   Config.set(FontSize.configKey, '12px')
+				break;
             default:
-                Config.set(FontSize.configKey, 'medium')
+                Config.set(FontSize.configKey, '16px')
         }
         FontSize.updateHtml()
     },
