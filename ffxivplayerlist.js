@@ -115,7 +115,7 @@ const PlayerParser = {
             return "tank"
         } else if (["WHM", "SCH", "AST", 'CNJ', 'SGE'].includes(job)) {
             return "healer"
-        } else if (["MNK", "DRG", "NIN", "SAM", "BRD", "MCH", "DNC", "SMN", "BLM", "RDM", 'PGL', 'LNC', 'ARC', 'ROG', 'ACN', 'THM', "BLU", "RPR"].includes(job)) {
+        } else if (["MNK", "DRG", "NIN", "SAM", "BRD", "MCH", "DNC", "SMN", "BLM", "RDM", 'PGL', 'LNC', 'ARC', 'ROG', 'ACN', 'THM', "BLU", "RPR","바이퍼","픽토멘서"].includes(job)) {
             return "dps"
         } else if (["MIN", "BTN", "FSH"].includes(job)) {
             return "gatherer"
